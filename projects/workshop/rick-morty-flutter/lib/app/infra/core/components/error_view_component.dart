@@ -27,7 +27,7 @@ class ErrorViewComponent extends StatelessWidget {
                 padding: const EdgeInsets.all(18),
                 height: 200,
                 decoration: BoxDecoration(
-                  color: AppColors.black200,
+                  color: AppColors.surface,
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(

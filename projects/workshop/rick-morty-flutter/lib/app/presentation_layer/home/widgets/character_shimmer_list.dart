@@ -8,8 +8,8 @@ class CharacterShimmerList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final base = AppColors.black200.withOpacity(0.55);
-    final highlight = AppColors.black200.withOpacity(0.25);
+    final base = AppColors.surface.withOpacity(0.55);
+    final highlight = AppColors.surface.withOpacity(0.25);
 
     return ListView.builder(
       physics: const AlwaysScrollableScrollPhysics(),

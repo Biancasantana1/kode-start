@@ -12,7 +12,7 @@ PreferredSizeWidget appBarComponent(
   const double toolbarHeight = kToolbarHeight * 2.3;
 
   return AppBar(
-    backgroundColor: AppColors.black500,
+    backgroundColor: AppColors.background,
     elevation: 0,
     toolbarHeight: toolbarHeight,
     systemOverlayStyle: SystemUiOverlayStyle.light,

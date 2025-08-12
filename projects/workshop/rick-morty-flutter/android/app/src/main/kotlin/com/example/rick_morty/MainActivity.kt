@@ -1,6 +1,6 @@
-package com.example.flutter_counter_example
+package com.example.rick_morty
 
 import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity: FlutterActivity() {
-}
+} 

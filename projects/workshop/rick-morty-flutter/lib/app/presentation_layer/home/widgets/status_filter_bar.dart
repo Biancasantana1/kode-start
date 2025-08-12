@@ -47,7 +47,7 @@ class StatusFilterBar extends StatelessWidget {
             selected: isSelected,
             onSelected: (_) => onChanged(opt.value),
             selectedColor: AppColors.primary,
-            backgroundColor: AppColors.black200,
+            backgroundColor: AppColors.surface,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
               side: BorderSide(

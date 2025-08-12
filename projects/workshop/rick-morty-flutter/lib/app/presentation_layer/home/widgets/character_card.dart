@@ -18,7 +18,7 @@ class CharacterCard extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.fromLTRB(20.width, 14.height, 20.width, 0.height),
         decoration: BoxDecoration(
-          color: AppColors.black200,
+          color: AppColors.surface,
           borderRadius: BorderRadius.circular(10),
         ),
         clipBehavior: Clip.antiAlias,
@@ -30,7 +30,7 @@ class CharacterCard extends StatelessWidget {
                 item.image,
                 fit: BoxFit.fill,
                 errorBuilder: (_, __, ___) => Container(
-                  color: AppColors.black200,
+                  color: AppColors.surface,
                   child: Padding(
                     padding: EdgeInsets.only(bottom: 30.height),
                     child: const Icon(
@@ -43,7 +43,7 @@ class CharacterCard extends StatelessWidget {
                 loadingBuilder: (ctx, child, prog) {
                   if (prog == null) return child;
                   return Container(
-                    color: AppColors.black200,
+                    color: AppColors.surface,
                     child: const Center(
                       child: CircularProgressIndicator(
                         color: AppColors.primary,

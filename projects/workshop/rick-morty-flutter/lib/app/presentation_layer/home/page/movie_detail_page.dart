@@ -74,7 +74,7 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
                               item.image,
                               fit: BoxFit.fill,
                               errorBuilder: (_, __, ___) => Container(
-                                color: AppColors.black500,
+                                color: AppColors.background,
                                 child: const Center(
                                   child: Icon(
                                     Icons.image_not_supported_outlined,
@@ -183,9 +183,9 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
   Color _dotColor(String status) {
     switch (status.toLowerCase()) {
       case 'alive':
-        return AppColors.green;
+        return AppColors.success;
       case 'dead':
-        return AppColors.red;
+        return AppColors.error;
       default:
         return AppColors.secondary;
     }

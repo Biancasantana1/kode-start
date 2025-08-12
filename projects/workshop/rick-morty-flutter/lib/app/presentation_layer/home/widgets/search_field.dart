@@ -51,7 +51,7 @@ class SearchField extends StatelessWidget {
                     )
                   : null,
               filled: true,
-              fillColor: AppColors.black200,
+              fillColor: AppColors.surface,
               contentPadding: EdgeInsets.symmetric(
                 vertical: 12.height,
                 horizontal: 16.width,

@@ -48,7 +48,7 @@ class _SplashPageState extends State<SplashPage> {
             const Text(
               'RICK AND MORTY API',
               style: TextStyle(
-                color: AppColors.black500,
+                color: AppColors.background,
                 letterSpacing: 2,
                 fontWeight: FontWeight.w400,
                 fontSize: 14.5,
