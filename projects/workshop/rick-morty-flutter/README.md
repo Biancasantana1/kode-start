@@ -26,6 +26,10 @@ Este projeto foi desenvolvido como parte do **Desafio Kode Start 2025**, demonst
 - **Loadings** durante buscas e navegações
 - **Design fiel ao Figma** proposto no desafio
 - **Ícone personalizado** do aplicativo em vez do ícone padrão do Flutter
+  
+### 🎬 Vídeo de demonstração
+
+https://github.com/user-attachments/assets/0f64b8a0-5a34-461c-a65b-f31f7b6d42f7
 
 ## 🏗️ Arquitetura do Projeto
 
